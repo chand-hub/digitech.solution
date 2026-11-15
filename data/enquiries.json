@@ -1,0 +1,86 @@
+[
+  {
+    "referenceId": "DTS-DESKTOP-002",
+    "requestType": "enquiry",
+    "fullName": "Priya Singh",
+    "businessName": "Mithila Diagnostics",
+    "phoneNumber": "9876511223",
+    "emailAddress": "priya@mithiladiagnostics.in",
+    "businessLocation": "Darbhanga, Bihar",
+    "websiteType": "Hospital / Clinic Website",
+    "hasExistingWebsite": "No",
+    "requiredFeatures": [
+      "Appointment Booking",
+      "WhatsApp Integration",
+      "Google Maps Integration"
+    ],
+    "projectBudget": "₹20,000–₹50,000",
+    "additionalRequirements": "Online lab report download and doctor schedule",
+    "submittedAt": "2026-11-10T07:43:40.000Z",
+    "emailStatus": "delivered",
+    "retryCount": 0,
+    "emailMessageId": "01a1c469-a074-7ade-94c2-1e01e473408a",
+    "lastEmailAttemptAt": "2026-11-10T07:43:39.281Z"
+  },
+  {
+    "referenceId": "DTS-QT-MOBILE-001",
+    "requestType": "quotation",
+    "fullName": "Rahul Sharma",
+    "businessName": "Darbhanga Sweets & Bakery",
+    "phoneNumber": "9876501234",
+    "emailAddress": "rahul@darbhangasweets.in",
+    "businessLocation": "Not provided",
+    "websiteType": "Restaurant Website Development",
+    "hasExistingWebsite": "No",
+    "requiredFeatures": [],
+    "projectBudget": "₹10,000–₹20,000",
+    "additionalRequirements": "Need digital menu and WhatsApp order button",
+    "submittedAt": "2026-11-10T07:43:00.000Z",
+    "emailStatus": "delivered",
+    "retryCount": 1,
+    "emailMessageId": "01a1c469-a312-7098-8a17-ea690f41d738",
+    "lastEmailAttemptAt": "2026-11-10T07:43:39.980Z"
+  },
+  {
+    "referenceId": "DTS-TEST-001",
+    "fullName": "Amit Kumar",
+    "businessName": "Mithila Health Care",
+    "phoneNumber": "9876543210",
+    "whatsAppNumber": "9876543210",
+    "emailAddress": "amit@mithilahealth.in",
+    "businessLocation": "Darbhanga, Bihar",
+    "websiteType": "Hospital / Clinic Website",
+    "hasExistingWebsite": "No",
+    "requiredFeatures": [
+      "Appointment Booking",
+      "WhatsApp Integration",
+      "Google Maps Integration"
+    ],
+    "projectBudget": "₹20,000–₹50,000",
+    "additionalRequirements": "Need online OPD doctor booking and emergency ambulance contact button.",
+    "submittedAt": "2026-11-09T05:15:00.000Z",
+    "emailStatus": "key_missing",
+    "retryCount": 1,
+    "emailError": "RESEND_API_KEY_NOT_CONFIGURED",
+    "lastEmailAttemptAt": "2026-11-09T05:11:27.096Z"
+  },
+  {
+    "referenceId": "DTS-MW83YZG0",
+    "fullName": "Vikram Jha",
+    "businessName": "Mithila Digital Media",
+    "phoneNumber": "9876543210",
+    "whatsAppNumber": "9876543210",
+    "emailAddress": "vikram@mithiladigital.in",
+    "businessLocation": "Darbhanga, Bihar",
+    "websiteType": "Business Website",
+    "hasExistingWebsite": "No",
+    "requiredFeatures": [
+      "Contact Form",
+      "WhatsApp Integration",
+      "Mobile Responsive Design"
+    ],
+    "projectBudget": "₹20,000–₹50,000",
+    "additionalRequirements": "We need a full company profile website.",
+    "submittedAt": "2026-11-08T17:30:45.360Z"
+  }
+]

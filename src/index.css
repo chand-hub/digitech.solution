@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-display: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-brand-black: #080B12;
+  --color-brand-navy: #101827;
+  --color-brand-surface: #151F32;
+  --color-brand-card: #0E1626;
+  --color-brand-gold: #D6B46A;
+  --color-brand-gold-light: #F0DCAB;
+  --color-brand-blue: #3185FF;
+  --color-brand-muted: #B7C0CE;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #080B12;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom subtle glass and glow accents */
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(214, 180, 106, 0.25);
+}
+
+.blue-glow {
+  box-shadow: 0 0 35px -5px rgba(49, 133, 255, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF7DC 0%, #D6B46A 50%, #B8923F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient-text {
+  background: linear-gradient(135deg, #99C5FE 0%, #3185FF 60%, #1754C9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080B12;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D6B46A;
+}
